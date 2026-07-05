@@ -1,5 +1,11 @@
 # OpenGL ES 2.0 binding for the BEAM
 
+[![Erlangsters Repository](https://img.shields.io/badge/erlangsters-opengl--es--2.0-%23a90432)](https://github.com/erlangsters/opengl-es-2.0)
+![Supported Erlang/OTP Versions](https://img.shields.io/badge/erlang%2Fotp-28-%23a90432)
+![Current Version](https://img.shields.io/badge/version-0.0.1-%23354052)
+![License](https://img.shields.io/github/license/erlangsters/opengl-es-2.0)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/erlangsters/opengl-es-2.0/build.yml)](https://github.com/erlangsters/opengl-es-2.0/actions/workflows/build.yml)
+[![Documentation Link](https://img.shields.io/badge/documentation-available-yellow)](https://erlangsters.github.io/opengl-es-2.0/)
 
 This repository contains the generated OpenGL ES 2.0 binding for Erlang and
 Elixir. The public API is exposed through the `gl` module and follows the
