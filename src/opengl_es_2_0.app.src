@@ -1,13 +1,13 @@
 {application, opengl_es_2_0, [
-    {description, "An OTP library"},
-    {vsn, "0.0.1"},
-    {registered, []},
-    {applications, [
-        kernel,
-        stdlib
-    ]},
-    {env, []},
-    {modules, []},
-    {licenses, []},
-    {links, []}
- ]}.
+  {description, "OpenGL ES 2.0 binding for the BEAM"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {env, []},
+  {modules, [gl]},
+  {licenses, ["MIT"]},
+  {links, ["https://github.com/erlangsters/opengl-es-2.0"]}
+]}.
